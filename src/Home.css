@@ -17,3 +17,14 @@
     margin-left: 5px;
     margin-right: 5px;
 }
+
+@media only screen and (max-width:600px){
+   .homeImage{
+    max-width: fit-content;
+    margin-bottom: auto;
+   }
+   .home_row{
+    max-width: fit-content;
+   }
+}
+
