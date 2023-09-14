@@ -12,6 +12,7 @@ function Header() {
 
     return (
         <nav className='header'>
+                
             {/* logo on the left- a image */}
             <Link to="/"> <img className='logo'
                 src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"

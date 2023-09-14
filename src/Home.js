@@ -46,7 +46,7 @@ function Home() {
           image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
         />
       </div>
-      <div className="home__row">
+      <div className="home__row" id='samsung'>
         <Product
           id="90829332"
           title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
