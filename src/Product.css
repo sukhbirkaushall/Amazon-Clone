@@ -37,3 +37,15 @@
     border: 1px solid ;
     border-color: #a88734 #9c7e31 #846a29;
 }
+
+@media only screen and (max-width:600px) {
+   .product{
+    padding: 10px;
+   }
+   .product_rating{
+    margin: 10px;
+   }
+   .pimage{
+    margin: 40px;
+   }
+}
