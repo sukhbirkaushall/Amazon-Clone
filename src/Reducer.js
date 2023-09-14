@@ -20,7 +20,7 @@ const reducer = (state, action) => {
             } else {
                 console.warn('Cannot Remove Item')
             }
-            return { ...state };
+            return { ...state, basket:[...newBasket] };
         // break;
 
         default:

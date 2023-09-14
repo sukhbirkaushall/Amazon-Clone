@@ -17,15 +17,17 @@ function Checkout() {
             ) : (
                 <div>
                     <h2 className='checkout_title'>Your cart</h2>
-                    {basket?.map((item) => (
-                        <Checkoutproduct
+                    {basket?.map((item) => 
+                        { console.log(item)
+                       return <Checkoutproduct
                             id={item.id}
                             title={item.title}
                             image={item.image}
                             price={item.price}
                             rating={item.rating}
                         />
-                    ))}
+}
+                    )}
                 </div>
             )}
         </div>
